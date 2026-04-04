@@ -1,0 +1,136 @@
+/* =========================
+   About Us Section
+========================= */
+
+.about-us {
+  padding: 80px 20px;
+  background: #f8f9fa;
+}
+
+/* Container */
+.about-us-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Title */
+.section-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+/* underline effect */
+.section-title::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #2e7d32;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 5px;
+}
+
+/* Content layout */
+.about-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Text section */
+.about-us-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-us-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Image container */
+.about-us-image {
+  flex: 1;
+  text-align: center;
+  min-width: 200px;
+}
+
+/* Image styling */
+.about-us-image img {
+  width: 100%;
+  max-width: 450px;   /* Adjust image size here */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease;
+}
+
+/* Hover effect */
+.about-us-image img:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 992px) {
+
+  .about-us-content {
+    gap: 30px;
+  }
+
+  .about-us-text p {
+    font-size: 17px;
+  }
+
+  .about-us-image img {
+    max-width: 380px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .about-us-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .about-us-text p {
+    font-size: 16px;
+  }
+
+  .about-us-image img {
+    max-width: 320px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .about-us {
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .about-us-image img {
+    max-width: 280px;
+  }
+
+}

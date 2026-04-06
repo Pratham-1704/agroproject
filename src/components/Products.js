@@ -14,17 +14,17 @@ const Products = () => {
 
   const products = [
     {
-      name: 'Premium Chilies',
+      name: 'Chilies',
       image: img1,
-      alt: 'Sandhya Agro Premium Milk - Pure Fresh Pasteurized Homogenized Toned Milk',
-      description: 'Sandhya Agro Premium Milk is pure, fresh, and full of goodness! Pasteurized and homogenized toned milk, delivering the perfect balance of nutrition and taste. Packed with essential vitamins and minerals. Enjoy milk that\'s safe, creamy, and delicious.<br><br>Available in 200ml, 500ml, and 1 liter sizes.',
+      alt: 'Premium Export Quality Chilies',
+      description: '<strong>Chillies</strong><br><br>Our chillies are rich in color, pungency, and flavor, making them ideal for international food industries and spice markets. We supply both fresh and dried chillies carefully sorted and packed to maintain quality during export.<br><br><strong>Origin:</strong> India<br><strong>Packaging:</strong> 25kg / 50kg PP Bags or as per buyer requirement<br><strong>Supply Ability:</strong> Bulk Quantity Available<br><strong>Export Markets:</strong> Asia, Middle East, Europe',
       export: false
     },
     {
-      name: 'Premium Turmeric',
+      name: 'Turmeric',
       image: images[1],
-      alt: 'Sandhya Agro Special Milk - Enhanced Creaminess and Nutrition from Pure Cow Milk',
-      description: 'Sandhya Agro\'s Special Milk offers enhanced creaminess and nutrition, perfect for those who want extra richness. Made from pure cow milk with no additives or preservatives.<br><br>Available in 200ml, 500ml, and 1 liter sizes.',
+      alt: 'Premium Export Quality Turmeric Rhizome',
+      description: '<strong>Turmeric Rhizome</strong><br><br>We supply high-quality turmeric rhizomes known for their vibrant yellow color, strong aroma, and high curcumin content. Our turmeric is carefully cleaned, sorted, and packed to meet international export standards.<br><br><strong>Origin:</strong> India<br><strong>Packaging:</strong> 25kg / 50kg PP Bags or as per buyer requirement<br><strong>Supply Ability:</strong> Bulk Quantity Available<br><strong>Export Markets:</strong> Asia, Middle East, Europe',
       export: false
     },
     {

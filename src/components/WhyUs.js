@@ -3,27 +3,27 @@ import React from 'react';
 const whyData = [
   {
     title: "Farm-to-Export Traceability",
-    text: "We work directly with farmers and sourcing partners, ensuring complete traceability from cultivation to export. This guarantees authenticity, quality, and trust in every shipment."
+    text: "Unlike many exporters, we work closely with farmers—giving you better control, consistent quality, and complete traceability of your products."
   },
   {
     title: "Consistency You Can Rely On",
-    text: "Strict quality control at every stage ensures uniform quality across all orders, helping you avoid risks and maintain trust in international markets."
+    text: "We don’t just deliver quality once—we ensure the same standard in every shipment, helping buyers avoid risk and uncertainty."
   },
   {
     title: "Customized Packaging & Orders",
-    text: "We provide flexible packaging, labeling, and order solutions including private labeling, bulk supply, and retail-ready formats tailored to your needs."
+    text: "We adapt to your requirements—whether it’s packaging, labeling, or quantity—tailored for your specific market."
   },
   {
     title: "Long-Term Partnerships",
-    text: "We focus on building lasting relationships by understanding your business needs and delivering consistent value beyond transactions."
+    text: "We don’t just supply products—we build lasting relationships by consistently delivering excellence and exceeding expectations."
   },
   {
     title: "Fast & Responsive Communication",
-    text: "Our team ensures quick responses, regular updates, and clear communication from inquiry to delivery."
+    text: "We ensure quick replies, updates, and clear communication at every stage of your order."
   },
   {
     title: "Ethical & Responsible Sourcing",
-    text: "We support farmers and follow ethical sourcing practices, ensuring sustainability and fair trade in every product."
+    text: "We support farmers and follow sustainable practices, ensuring both quality and responsibility."
   }
 ];
 

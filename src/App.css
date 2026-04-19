@@ -401,7 +401,7 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   position: relative;
   perspective: 1000px;
-  height: 400px;
+  height: 500px;
 }
 
 .product-card-front,
@@ -427,6 +427,9 @@ body {
 .product-card-back {
   transform: rotateY(180deg);
   background-color: #f4efef;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 1.5rem 1rem;
 }
 
 .product-card.flipped .product-card-front {
@@ -490,19 +493,45 @@ body {
 
 .back-btn-card {
   margin-top: auto;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 200px;
 }
 
 .product-card-back h4 {
   font-size: 1.3rem;
   color: #C9A227;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
+  flex-shrink: 0;
 }
 
 .product-card-back p {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  text-align: left;
+  margin-bottom: 2rem;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.product-card-back p::-webkit-scrollbar {
+  width: 6px;
+}
+
+.product-card-back p::-webkit-scrollbar-track {
+  background: #e9e9e9;
+  border-radius: 10px;
+}
+
+.product-card-back p::-webkit-scrollbar-thumb {
+  background: #C9A227;
+  border-radius: 10px;
+}
+
+.product-card-back p::-webkit-scrollbar-thumb:hover {
+  background: #a88f1f;
 }
 
 .carousel-dots {

@@ -1,59 +1,60 @@
 import React, { useState, useEffect, useRef } from 'react';
 import img1 from '../images/products/p1.jpeg';
 import img2 from '../images/products/p2.jpeg';
-import img3 from '../images/products/p3.jpeg';
-
-
+import img3 from '../images/products/Onion.jpeg';
+import img4 from '../images/products/Soyabean.jpeg';
+import img5 from '../images/products/Greengram.png';
+import img6 from '../images/products/Blackgram.png';
 
 const Products = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerView, setItemsPerView] = useState(4);
   const trackRef = useRef(null);
 
-  const images = [img1, img2, img3];
+  const images = [img1, img2, img3, img4, img5, img6];
 
   const products = [
     {
-      name: 'Chilies',
+      name: 'Green Chilli',
       image: img1,
-      alt: 'Premium Export Quality Chilies',
-      description: '<strong>Chillies</strong><br><br>Our chillies are rich in color, pungency, and flavor, making them ideal for international food industries and spice markets. We supply both fresh and dried chillies carefully sorted and packed to maintain quality during export.<br><br><strong>Origin:</strong> India<br><strong>Packaging:</strong> 25kg / 50kg PP Bags or as per buyer requirement<br><strong>Supply Ability:</strong> Bulk Quantity Available<br><strong>Export Markets:</strong> Asia, Middle East, Europe',
+      alt: 'Premium Export Quality Green Chillies',
+      description: '<strong>Green Chilli</strong><br><br><strong>Product Info</strong><br>Fresh, vibrant green chillies with high pungency, sourced from premium farms and handled under strict hygienic conditions for export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Bright Green<br><strong>Size:</strong> Medium to Long<br><strong>Pungency:</strong> High<br><strong>Freshness:</strong> Farm Fresh<br><br><strong>Packaging</strong><br>5 kg / 10 kg ventilated cartons<br>Plastic crates (as required)<br>Pre-cooling & cold storage maintained',
       export: false
     },
     {
       name: 'Turmeric',
       image: images[1],
       alt: 'Premium Export Quality Turmeric Rhizome',
-      description: '<strong>Turmeric Rhizome</strong><br><br>We supply high-quality turmeric rhizomes known for their vibrant yellow color, strong aroma, and high curcumin content. Our turmeric is carefully cleaned, sorted, and packed to meet international export standards.<br><br><strong>Origin:</strong> India<br><strong>Packaging:</strong> 25kg / 50kg PP Bags or as per buyer requirement<br><strong>Supply Ability:</strong> Bulk Quantity Available<br><strong>Export Markets:</strong> Asia, Middle East, Europe',
+      description: '<strong>Turmeric Fingers (Haldi)</strong><br><br><strong>Product Info</strong><br>High-quality turmeric fingers with rich color and strong aroma, carefully processed to meet international export standards.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Yellow to Deep Golden<br><strong>Curcumin:</strong> 3% – 5%+<br><strong>Moisture:</strong> Max 10–12%<br><strong>Polish:</strong> Unpolished / Polished<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP / Jute Bags<br>Food-grade packing',
       export: false
     },
     {
-      name: 'Premium Fresh Curd',
+      name: 'Onion',
       image: images[2],
-      alt: 'Sandhya Agro Premium Fresh Curd - Natural Culturing Methods Preservative-Free',
-      description: 'Sandhya Agro\'s Premium Fresh Curd is prepared from pure, fresh milk using natural culturing methods to achieve a thick, smooth texture. Preservative-free and gently set, it offers a balanced taste and wholesome freshness for everyday consumption.<br><br>Available in 200gm, 500gm, and 1000gm.',
+      alt: 'Premium Export Quality Onion',
+     description: '<strong>Onion</strong><br><br><strong>Product Info</strong><br>Premium export-quality onions with uniform size, long shelf life, and excellent storage stability.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Red / Pink<br><strong>Size:</strong> 40–70 mm<br><strong>Moisture:</strong> Low (good keeping quality)<br><strong>Shelf Life:</strong> Long (under proper storage)<br><br><strong>Packaging</strong><br>5 kg / 10 kg / 25 kg Mesh Bags<br>Jute bags (on request)<br>Ventilated packaging',
       export: false
     },
     {
-      name: 'Malai Paneer',
-      image: images[0],
-      alt: 'Sandhya Agro Premium Malai Paneer - Soft Creamy Texture Rich in Protein',
-      description: 'Sandhya Agro\'s Premium Malai Paneer is made from fresh milk, ensuring softness, a creamy texture, and a rich source of protein in every bite. With its preservative-free, homemade taste, this paneer is perfect for a variety of dishes and a healthy choice for your kitchen.<br><br>Available in 200gm, 500gm, and 1000gm.',
+      name: 'Soyabean',
+      image: images[3],
+      alt: 'Premium Export Quality Soyabean',
+     description: '<strong>Soybean</strong><br><br><strong>Product Info</strong><br>High-grade soybeans with excellent protein content, properly cleaned and suitable for food and industrial use.<br><br><strong>Specifications</strong><br><strong>Protein:</strong> ~38% – 42%<br><strong>Moisture:</strong> Max 10%<br><strong>Size:</strong> Uniform (good grading preferred)<br><strong>Color:</strong> Natural Yellow, clean shine<br><strong>Purity:</strong> 98%+<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Bulk packing available',
       export: false
     },
     {
-      name: 'Low Fat Paneer',
-      image: images[1],
-      alt: 'Sandhya Agro Low Fat Paneer - Protein-Rich Light Healthy Alternative',
-      description: 'Sandhya Agro\'s Low Fat Paneer is made from fresh milk using carefully controlled processes to reduce fat while maintaining softness and taste. Light, protein-rich, and preservative-free, it offers a healthier alternative for everyday meals without compromising on texture or quality.<br><br>Available in 200gm, 500gm, and 1000gm.',
-      export: true
+      name: 'Green Gram',
+      image: images[4],
+      alt: 'Premium Export Quality Green Gram',
+      description: '<strong>Green Gram</strong><br><br><strong>Product Info</strong><br>Export-grade green gram with uniform size, natural shine, and high nutritional value.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 12%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Bright Green<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Bulk & private label options',
+      export: false
     },
     {
-      name: 'Pure Ghee',
-      image: images[2],
-      alt: 'Sandhya Agro Premium Cow Ghee - Pure Cow Milk Rich Aroma Authentic Taste',
-      description: 'Sandhya Agro\'s Premium Cow Ghee is prepared from pure cow milk, offering a rich aroma, smooth texture, and authentic taste. Free from preservatives, it delivers traditional goodness and natural richness ideal for everyday cooking and special recipes.<br><br>Available in 200ml, 500ml, and 1000ml.',
-      export: true
+      name: 'Black Gram',
+      image: images[5],
+      alt: 'Premium Export Quality Black Gram',
+     description: '<strong>Black Gram</strong><br><br><strong>Product Info</strong><br>Premium quality black gram, well-cleaned and rich in nutrients, ideal for global consumption.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 12%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Natural Black<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Custom packaging available',
+      export: false
     },
     {
       name: 'Kesar Lassi',

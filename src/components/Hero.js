@@ -1,10 +1,10 @@
 import React from 'react';
-import heroBg from '../images/products/p4.png';
+import heroBg from '../images/products/main-page.png';
 import logo from '../images/products/logo.jpeg';
 
 const Hero = () => {
   return (
-    <section className="hero" id="home" style={{ backgroundImage: `url(${heroBg})` }}>
+    <section className="hero" id="home" style={{ backgroundImage: `url(${heroBg})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
       <div className="hero-content">
         <div className="logo-container">
           <img src={logo} alt="Sandhya Agro Logo" className="logo-image" />

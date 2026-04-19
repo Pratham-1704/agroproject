@@ -21,7 +21,7 @@ const AboutUs = () => {
                              At Sandhya Agro Exports, we believe in building long-term relationships with our customers by providing quality products, transparent business practices, and competitive pricing.</p>
                     </div>
                     <div className="about-us-image">
-                        <img src="./img.jpg" alt="Sandhya Agro - About Us - Premium Dairy Products Manufacturer Since 1985" />
+                        <img src="./aboutus.png" alt="Sandhya Agro - About Us - Premium Dairy Products Manufacturer Since 1985" />
                     </div>
                 </div>
             </div>

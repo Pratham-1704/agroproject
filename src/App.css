@@ -120,6 +120,7 @@ body {
 /* Hero */
 .hero {
   height: 100vh;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,7 +129,7 @@ body {
   padding: 0 2rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 
 .hero-content {
@@ -971,10 +972,19 @@ body {
 
   .hero {
     padding: 2rem 1rem;
+    min-height: 70vh;
+  }
+
+  .logo-image {
+    max-width: 180px;
   }
 
   .tagline {
     font-size: 2rem;
+  }
+
+  .know-more-btn {
+    padding: 0.9rem 1.6rem;
   }
 
   .about-us-content,
@@ -1020,6 +1030,21 @@ body {
 
   .tagline {
     font-size: 1.5rem;
+  }
+
+  .hero {
+    min-height: 55vh;
+    padding: 1.2rem 1rem;
+  }
+
+  .logo-image {
+    max-width: 140px;
+  }
+
+  .know-more-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.85rem 1rem;
   }
 
   .why-us-cards {

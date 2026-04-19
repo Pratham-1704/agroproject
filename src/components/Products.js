@@ -57,68 +57,13 @@ const Products = () => {
       export: false
     },
     {
-      name: 'Kesar Lassi',
-      image: images[0],
-      alt: 'Kesar Lassi',
-      description: 'Sandhya Agro\'s Kesar Lassi is a refreshing blend of fresh curd and aromatic saffron. Creamy, naturally sweet, and preservative-free, it\'s the perfect traditional drink for any occasion.<br><br>Available in 200ml.',
+      name: 'Green Chilli',
+      image: img1,
+      alt: 'Premium Export Quality Green Chillies',
+      description: '<strong>Green Chilli</strong><br><br><strong>Product Info</strong><br>Fresh, vibrant green chillies with high pungency, sourced from premium farms and handled under strict hygienic conditions for export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Bright Green<br><strong>Size:</strong> Medium to Long<br><strong>Pungency:</strong> High<br><strong>Freshness:</strong> Farm Fresh<br><br><strong>Packaging</strong><br>5 kg / 10 kg ventilated cartons<br>Plastic crates (as required)<br>Pre-cooling & cold storage maintained',
       export: false
     },
-    {
-      name: 'Masala Tak',
-      image: images[1],
-      alt: 'Masala Tak',
-      description: 'Sandhya Agro\'s Masala Tak (Buttermilk) is a refreshing spiced drink made from fresh curd. Perfectly seasoned and preservative-free, it aids digestion and keeps you cool and hydrated.<br><br>Available in 200ml.',
-      export: false
-    },
-    {
-      name: 'Amrakhand',
-      image: images[2],
-      alt: 'Sandhya Agro Premium Amrakhand - Fresh Milk with Tropical Mango Sweetness',
-      description: 'Sandhya Agro\'s Premium Amrakhand combines the richness of pure, fresh milk with the tropical sweetness of ripe mangoes. Nutritious, preservative-free, and offering a delightful homemade taste, it\'s a wholesome treat everyone will love.<br><br>Available in 250gm, 500gm, and 1000gm.',
-      export: true
-    },
-    {
-      name: 'Shrikhand',
-      image: images[0],
-      alt: 'Sandhya Agro Premium Shrikhand - Creamy Dessert with Badam and Pista',
-      description: 'Sandhya Agro\'s Premium Shrikhand is a creamy dessert crafted from pure, nutritious curd and blended with the goodness of badam and pista. With its preservative-free, homemade taste, it delivers a healthy, traditional sweetness perfect for any occasion.<br><br>Available in 250gm, 500gm, and 1000gm.',
-      export: true
-    },
-    {
-      name: 'Butterscotch Milk',
-      image: images[1],
-      alt: 'Butterscotch Flavoured Milk',
-      description: 'Sandhya Agro\'s Premium Butterscotch Milk brings together the rich sweetness of butterscotch and the freshness of pure milk. This creamy, delicious drink offers a perfect balance of sweetness, making it a delightful choice for any time of the day.<br><br>Available in 200ml.',
-      export: true
-    },
-    {
-      name: 'Chocolate Milk',
-      image: images[2],
-      alt: 'Chocolate Flavoured Milk',
-      description: 'Sandhya Agro\'s Premium Chocolate Milk combines fresh, nutritious milk with rich, smooth chocolate. It\'s a creamy, enjoyable drink that\'s perfect for satisfying your chocolate cravings.<br><br>Available in 200ml.',
-      export: true
-    },
-    {
-      name: 'Badam Milk',
-      image: images[0],
-      alt: 'Badam Flavoured Milk',
-      description: 'Sandhya Agro\'s Premium Badam Milk is made with fresh, high-quality milk and enriched with the natural goodness of almonds. This creamy and nutritious drink provides a deliciously smooth taste, perfect for a nourishing treat.<br><br>Available in 200ml.',
-      export: true
-    },
-    {
-      name: 'Coffee Milk',
-      image: images[1],
-      alt: 'Coffee Flavoured Milk',
-      description: 'Sandhya Agro\'s Coffee Flavoured Milk offers the perfect blend of fresh cow milk and aromatic coffee. A refreshing, preservative-free beverage that energizes and delights.<br><br>Available in 200ml.',
-      export: true
-    },
-    {
-      name: 'Pista Milk',
-      image: images[2],
-      alt: 'Pista Flavoured Milk',
-      description: 'Sandhya Agro\'s Premium Pista Milk is made with fresh, nutritious milk and mixed with the natural goodness of pista. This creamy, delicious drink offers a smooth, satisfying taste that\'s both refreshing and wholesome.<br><br>Available in 200ml.',
-      export: true
-    }
+    
   ];
 
   const totalItems = products.length;

@@ -13,27 +13,18 @@ const ContactUs = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const productOptions = [
-    'premium-milk', 'special-milk', 'malai-paneer', 'low-fat-paneer', 'pure-ghee',
-    'premium-fresh-curd', 'kesar-lassi', 'masala-tak', 'amrakhand', 'shrikhand',
-    'butterscotch-milk', 'chocolate-milk', 'badam-milk', 'coffee-milk', 'pista-milk'
+    'Green Chilli', 'Turmeric', 'Onion', 'Soyabean', 'Green Gram',
+    'Black Gram'
   ];
 
   const productLabels = {
-    'premium-milk': 'Premium Milk',
-    'special-milk': 'Special Milk',
-    'malai-paneer': 'Malai Paneer',
-    'low-fat-paneer': 'Low Fat Paneer',
-    'pure-ghee': 'Pure Ghee',
-    'premium-fresh-curd': 'Premium Fresh Curd',
-    'kesar-lassi': 'Kesar Lassi',
-    'masala-tak': 'Masala Tak',
-    'amrakhand': 'Amrakhand',
-    'shrikhand': 'Shrikhand',
-    'butterscotch-milk': 'Butterscotch Milk',
-    'chocolate-milk': 'Chocolate Milk',
-    'badam-milk': 'Badam Milk',
-    'coffee-milk': 'Coffee Milk',
-    'pista-milk': 'Pista Milk'
+    'Green Chilli': 'Green Chilli',
+    'Turmeric': 'Turmeric',
+    'Onion': 'Onion',
+    'Soyabean': 'Soyabean',
+    'Green Gram': 'Green Gram',
+    'Black Gram': 'Black Gram',
+    
   };
 
   const handleInputChange = (e) => {
@@ -94,21 +85,21 @@ const ContactUs = () => {
                 </svg>
                 <div>
                   <h4>Sandhya Agro Pvt Ltd</h4>
-                  <p>Gat no 481, Walunjnagar Post-Loni (Dhamani), Tal-Ambegaon, Pune, Maharashtra 410510</p>
+                  <p>At lakhapur, Post, Daryapur, Thilori, Amravati, Maharashtra 444803</p>
                 </div>
               </div>
               <div className="map-container">
                 <iframe 
-                  src="https://maps.google.com/maps?q=Sandhya+Agro+Pvt+Ltd,+Gat+no+481,+Walunjnagar,+Loni+Dhamani,+Ambegaon,+Pune,+Maharashtra+410510&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.6988399443967!2d77.38472879999999!3d20.924432699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6c3ff79b92d7b%3A0x9ecc744dc12e004!2sSandhya%20Agro%20Exports!5e0!3m2!1sen!2sin!4v1776602922663!5m2!1sen!2sin"
                   width="100%" 
-                  height="200" 
+                  height="300" 
                   style={{ border: 0 }} 
                   allowFullScreen="" 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Sandhya Agro Location"
                 />
-                <a href="https://maps.app.goo.gl/odA2R4AvUSReVsBW8?g_st=iw" target="_blank" rel="noopener noreferrer" className="map-link">
+                <a href="https://maps.app.goo.gl/H365VkyrttKqDLuL8?g_st=aw" target="_blank" rel="noopener noreferrer" className="map-link">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
@@ -130,7 +121,7 @@ const ContactUs = () => {
                 </svg>
                 <div>
                   <h4>Email Us</h4>
-                  <p><a href="mailto:saharaagro@gmail.com">saharaagro@gmail.com</a></p>
+                  <p><a href="mailto:sandhyaagro@gmail.com">sandhyaagro@gmail.com</a></p>
                 </div>
               </div>
               <div className="contact-info-header">

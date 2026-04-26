@@ -147,7 +147,7 @@ const ProductCard = ({ product }) => {
     <div className={`product-card ${isFlipped ? 'flipped' : ''}`}>
       <div className="product-card-front">
         {product.export && <span className="export-tag">Available to Export</span>}
-        <div className="product-image">
+        <div className={`product-image ${product.name === 'Turmeric' ? 'turmeric-image' : ''}`}>
           <img src={product.image} alt={product.alt} />
         </div>
         <h3 className="product-name">{product.name}</h3>

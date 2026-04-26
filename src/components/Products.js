@@ -25,7 +25,7 @@ const Products = () => {
       name: 'Turmeric',
       image: images[1],
       alt: 'Premium Export Quality Turmeric Rhizome',
-      description: '<strong>Turmeric Fingers (Haldi)</strong><br><br><strong>Product Info</strong><br>High-quality turmeric fingers with rich color and strong aroma, carefully processed to meet international export standards.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Yellow to Deep Golden<br><strong>Curcumin:</strong> 3% – 5%+<br><strong>Moisture:</strong> Max 10–12%<br><strong>Polish:</strong> Unpolished / Polished<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP / Jute Bags<br>Food-grade packing',
+      description: '<strong>Turmeric Fingers (Haldi)</strong><br><br><strong>Product Info</strong><br>High-quality turmeric fingers with rich color and strong aroma, carefully processed to meet international export standards.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Yellow to Deep Golden<br><strong>Curcumin:</strong> 3% – 5%+<br><strong>Moisture:</strong> Max 10%<br><strong>Polish:</strong> Unpolished / Polished<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP / Jute Bags<br>Food-grade packing',
       export: false
     },
     {
@@ -46,14 +46,14 @@ const Products = () => {
       name: 'Green Gram',
       image: images[4],
       alt: 'Premium Export Quality Green Gram',
-      description: '<strong>Green Gram</strong><br><br><strong>Product Info</strong><br>Export-grade green gram with uniform size, natural shine, and high nutritional value.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 12%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Bright Green<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Bulk & private label options',
+      description: '<strong>Green Gram</strong><br><br><strong>Product Info</strong><br>Export-grade green gram with uniform size, natural shine, and high nutritional value.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 10%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Bright Green<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Bulk & private label options',
       export: false
     },
     {
       name: 'Black Gram',
       image: images[5],
       alt: 'Premium Export Quality Black Gram',
-     description: '<strong>Black Gram</strong><br><br><strong>Product Info</strong><br>Premium quality black gram, well-cleaned and rich in nutrients, ideal for global consumption.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 12%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Natural Black<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Custom packaging available',
+     description: '<strong>Black Gram</strong><br><br><strong>Product Info</strong><br>Premium quality black gram, well-cleaned and rich in nutrients, ideal for global consumption.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 10%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Natural Black<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Custom packaging available',
       export: false
     },
     {

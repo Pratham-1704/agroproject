@@ -1,6 +1,6 @@
 import React from 'react';
-import img1 from '../images/products/mission.png';
-import img2 from '../images/products/vision.png';
+import img1 from '../images/products/mission.png.jpeg';
+import img2 from '../images/products/vision.png.jpeg';
 
 
 const VisionMission = () => {

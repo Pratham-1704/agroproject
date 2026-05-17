@@ -5,13 +5,16 @@ import img3 from '../images/products/Onion.jpeg';
 import img4 from '../images/products/Soyabean.jpeg';
 import img5 from '../images/products/Greengram.png';
 import img6 from '../images/products/Blackgram.png';
+import img7 from '../images/products/porduct1.png';
+import img8 from '../images/products/product2.png';
+
 
 const Products = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerView, setItemsPerView] = useState(4);
   const trackRef = useRef(null);
 
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2, img3, img4, img5, img6,img7, img8];
 
   const products = [
     {
@@ -57,13 +60,19 @@ const Products = () => {
       export: false
     },
     {
-      name: 'Green Chilli',
-      image: img1,
+      name: 'Red Gram',
+      image: images[6],
       alt: 'Premium Export Quality Green Chillies',
       description: '<strong>Green Chilli</strong><br><br><strong>Product Info</strong><br>Fresh, vibrant green chillies with high pungency, sourced from premium farms and handled under strict hygienic conditions for export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Bright Green<br><strong>Size:</strong> Medium to Long<br><strong>Pungency:</strong> High<br><strong>Freshness:</strong> Farm Fresh<br><br><strong>Packaging</strong><br>5 kg / 10 kg ventilated cartons<br>Plastic crates (as required)<br>Pre-cooling & cold storage maintained',
       export: false
     },
-    
+    {
+      name: 'Red Chilli',
+      image: images[7],
+      alt: 'Premium Export Quality Green Chillies',
+      description: '<strong>Green Chilli</strong><br><br><strong>Product Info</strong><br>Fresh, vibrant green chillies with high pungency, sourced from premium farms and handled under strict hygienic conditions for export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Bright Green<br><strong>Size:</strong> Medium to Long<br><strong>Pungency:</strong> High<br><strong>Freshness:</strong> Farm Fresh<br><br><strong>Packaging</strong><br>5 kg / 10 kg ventilated cartons<br>Plastic crates (as required)<br>Pre-cooling & cold storage maintained',
+      export: false
+    }
   ];
 
   const totalItems = products.length;

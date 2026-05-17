@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatsAppButton = () => {
   // TODO: replace with your business phone number in international format (no + or leading zeros)
-  const phoneNumber = '919999999999';
+  const phoneNumber = '8308771343';
   const message = encodeURIComponent('Hello! I would like to know more about your products.');
   const href = `https://wa.me/${phoneNumber}?text=${message}`;
 

@@ -14,7 +14,7 @@ const Products = () => {
   const [itemsPerView, setItemsPerView] = useState(4);
   const trackRef = useRef(null);
 
-  const images = [img1, img2, img3, img4, img5, img6,img7, img8];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
   const products = [
     {
@@ -35,14 +35,14 @@ const Products = () => {
       name: 'Onion',
       image: images[2],
       alt: 'Premium Export Quality Onion',
-     description: '<strong>Onion</strong><br><br><strong>Product Info</strong><br>Premium export-quality onions with uniform size, long shelf life, and excellent storage stability.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Red / Pink<br><strong>Size:</strong> 40–70 mm<br><strong>Moisture:</strong> Low (good keeping quality)<br><strong>Shelf Life:</strong> Long (under proper storage)<br><br><strong>Packaging</strong><br>5 kg / 10 kg / 25 kg Mesh Bags<br>Jute bags (on request)<br>Ventilated packaging',
+      description: '<strong>Onion</strong><br><br><strong>Product Info</strong><br>Premium export-quality onions with uniform size, long shelf life, and excellent storage stability.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Red / Pink<br><strong>Size:</strong> 40–70 mm<br><strong>Moisture:</strong> Low (good keeping quality)<br><strong>Shelf Life:</strong> Long (under proper storage)<br><br><strong>Packaging</strong><br>5 kg / 10 kg / 25 kg Mesh Bags<br>Jute bags (on request)<br>Ventilated packaging',
       export: false
     },
     {
       name: 'Soyabean',
       image: images[3],
       alt: 'Premium Export Quality Soyabean',
-     description: '<strong>Soybean</strong><br><br><strong>Product Info</strong><br>High-grade soybeans with excellent protein content, properly cleaned and suitable for food and industrial use.<br><br><strong>Specifications</strong><br><strong>Protein:</strong> ~38% – 42%<br><strong>Moisture:</strong> Max 10%<br><strong>Size:</strong> Uniform (good grading preferred)<br><strong>Color:</strong> Natural Yellow, clean shine<br><strong>Purity:</strong> 98%+<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Bulk packing available',
+      description: '<strong>Soybean</strong><br><br><strong>Product Info</strong><br>High-grade soybeans with excellent protein content, properly cleaned and suitable for food and industrial use.<br><br><strong>Specifications</strong><br><strong>Protein:</strong> ~38% – 42%<br><strong>Moisture:</strong> Max 10%<br><strong>Size:</strong> Uniform (good grading preferred)<br><strong>Color:</strong> Natural Yellow, clean shine<br><strong>Purity:</strong> 98%+<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Bulk packing available',
       export: false
     },
     {
@@ -56,21 +56,21 @@ const Products = () => {
       name: 'Black Gram',
       image: images[5],
       alt: 'Premium Export Quality Black Gram',
-     description: '<strong>Black Gram</strong><br><br><strong>Product Info</strong><br>Premium quality black gram, well-cleaned and rich in nutrients, ideal for global consumption.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 10%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Natural Black<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Custom packaging available',
+      description: '<strong>Black Gram</strong><br><br><strong>Product Info</strong><br>Premium quality black gram, well-cleaned and rich in nutrients, ideal for global consumption.<br><br><strong>Specifications</strong><br><strong>Moisture:</strong> Max 10%<br><strong>Purity:</strong> 98%+<br><strong>Foreign Matter:</strong> <1%<br><strong>Color:</strong> Natural Black<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Custom packaging available',
       export: false
     },
     {
       name: 'Red Gram',
       image: images[6],
-      alt: 'Premium Export Quality Green Chillies',
-      description: '<strong>Green Chilli</strong><br><br><strong>Product Info</strong><br>Fresh, vibrant green chillies with high pungency, sourced from premium farms and handled under strict hygienic conditions for export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Bright Green<br><strong>Size:</strong> Medium to Long<br><strong>Pungency:</strong> High<br><strong>Freshness:</strong> Farm Fresh<br><br><strong>Packaging</strong><br>5 kg / 10 kg ventilated cartons<br>Plastic crates (as required)<br>Pre-cooling & cold storage maintained',
+      alt: 'Premium Export Quality Red Gram',
+      description: '<strong>Red Gram</strong><br><br><strong>Product Info</strong><br>Premium quality red gram with uniform grain size, rich nutritional value, and excellent cooking quality suitable for domestic and export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Reddish Brown<br><strong>Size:</strong> Medium Uniform Grains<br><strong>Moisture:</strong> Low<br><strong>Purity:</strong> High Cleaned Quality<br><strong>Shelf Life:</strong> Long under proper storage conditions<br><br><strong>Packaging</strong><br>25 kg / 50 kg PP Bags<br>Customized export packaging available<br>Stored in dry and hygienic conditions',
       export: false
     },
     {
       name: 'Red Chilli',
       image: images[7],
-      alt: 'Premium Export Quality Green Chillies',
-      description: '<strong>Green Chilli</strong><br><br><strong>Product Info</strong><br>Fresh, vibrant green chillies with high pungency, sourced from premium farms and handled under strict hygienic conditions for export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Bright Green<br><strong>Size:</strong> Medium to Long<br><strong>Pungency:</strong> High<br><strong>Freshness:</strong> Farm Fresh<br><br><strong>Packaging</strong><br>5 kg / 10 kg ventilated cartons<br>Plastic crates (as required)<br>Pre-cooling & cold storage maintained',
+      alt: 'Premium Export Quality Red Chilli',
+      description: '<strong>Red Chilli</strong><br><br><strong>Product Info</strong><br>Premium export-quality dry red chillies with vibrant red color, strong pungency, and superior drying quality suitable for bulk supply and export markets.<br><br><strong>Specifications</strong><br><strong>Color:</strong> Deep Red<br><strong>Type:</strong> Whole Dry Chilli<br><strong>Moisture:</strong> Low<br><strong>Pungency:</strong> Medium to High<br><strong>Shelf Life:</strong> Long under proper storage conditions<br><br><strong>Packaging</strong><br>10 kg / 25 kg PP Bags<br>Customized export packaging available<br>Stored in cool and dry conditions',
       export: false
     }
   ];
@@ -117,7 +117,7 @@ const Products = () => {
         <div className="carousel-wrapper">
           <button className="carousel-btn carousel-btn-prev" onClick={goToPrev} disabled={currentIndex === 0} aria-label="Previous">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M15 19l-7-7 7-7" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M15 19l-7-7 7-7" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
           <div className="carousel-track-container">
@@ -131,7 +131,7 @@ const Products = () => {
           </div>
           <button className="carousel-btn carousel-btn-next" onClick={goToNext} disabled={currentIndex >= maxIndex} aria-label="Next">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
         </div>

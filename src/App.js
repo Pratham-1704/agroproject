@@ -9,6 +9,7 @@ import Products from './components/Products';
 import Export from './components/Export';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Products />
       <Export />
       <ContactUs />
+      <WhatsAppButton />
       <Footer />
     </div>
   );

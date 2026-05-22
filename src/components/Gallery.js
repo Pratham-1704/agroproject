@@ -1,22 +1,38 @@
 import React from 'react';
-import greenChilli from '../images/products/p1.jpeg';
-import turmeric from '../images/products/p2.jpeg';
-import onion from '../images/products/Onion.jpeg';
-import soyabean from '../images/products/Soyabean.jpeg';
-import greenGram from '../images/products/Greengram.png';
-import blackGram from '../images/products/Blackgram.png';
-import p3 from '../images/products/p3.jpeg';
-import p4 from '../images/products/p4.png';
+import img1 from '../images/productgallery/img1.png';
+import img2 from '../images/productgallery/img2.jpg';
+import img3 from '../images/productgallery/img3.jpg';
+import img4 from '../images/productgallery/img4.jpg';
+import img5 from '../images/productgallery/img5.jpg';
+import img6 from '../images/productgallery/img6.jpg';
+import img7 from '../images/productgallery/img7.jpg';
+import img8 from '../images/productgallery/img8.jpg';
+import img9 from '../images/productgallery/img9.jpg';
+import img10 from '../images/productgallery/img10.jpg';
+import img11 from '../images/productgallery/img11.jpg';
+import img12 from '../images/productgallery/IMG12.jpg';
+import img13 from '../images/productgallery/IMG13.jpg';
+import img14 from '../images/productgallery/IMG14.jpeg';
+import img15 from '../images/productgallery/img15.jpeg';
+import img16 from '../images/productgallery/img16.jpeg';
 
 const galleryImages = [
-  { src: greenChilli, alt: 'Green Chilli Product Photo', caption: 'Green Chilli' },
-  { src: turmeric, alt: 'Turmeric Product Photo', caption: 'Turmeric' },
-  { src: onion, alt: 'Onion Product Photo', caption: 'Onion' },
-  { src: soyabean, alt: 'Soyabean Product Photo', caption: 'Soyabean' },
-  { src: greenGram, alt: 'Green Gram Product Photo', caption: 'Green Gram' },
-  { src: blackGram, alt: 'Black Gram Product Photo', caption: 'Black Gram' },
-  { src: p3, alt: 'Product Photo 3', caption: 'Product Photo' },
-  { src: p4, alt: 'Product Photo 4', caption: 'Product Photo' }
+  { src: img1, alt: 'Product gallery image 1' },
+  { src: img2, alt: 'Product gallery image 2' },
+  { src: img3, alt: 'Product gallery image 3' },
+  { src: img4, alt: 'Product gallery image 4' },
+  { src: img5, alt: 'Product gallery image 5' },
+  { src: img6, alt: 'Product gallery image 6' },
+  { src: img7, alt: 'Product gallery image 7' },
+  { src: img8, alt: 'Product gallery image 8' },
+  { src: img9, alt: 'Product gallery image 9' },
+  { src: img10, alt: 'Product gallery image 10' },
+  { src: img11, alt: 'Product gallery image 11' },
+  { src: img12, alt: 'Product gallery image 12' },
+  { src: img13, alt: 'Product gallery image 13' },
+  { src: img14, alt: 'Product gallery image 14' },
+  { src: img15, alt: 'Product gallery image 15' },
+  { src: img16, alt: 'Product gallery image 16' }
 ];
 
 const Gallery = () => {

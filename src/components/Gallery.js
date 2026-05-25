@@ -26,11 +26,11 @@ const galleryImages = [
   { src: img7, alt: 'Product gallery image 7' },
   { src: img8, alt: 'Product gallery image 8' },
   { src: img9, alt: 'Product gallery image 9' },
+  { src: img14, alt: 'Product gallery image 14' },
   { src: img10, alt: 'Product gallery image 10' },
   { src: img11, alt: 'Product gallery image 11' },
   { src: img12, alt: 'Product gallery image 12' },
   { src: img13, alt: 'Product gallery image 13' },
-  { src: img14, alt: 'Product gallery image 14' },
   { src: img15, alt: 'Product gallery image 15' },
   { src: img16, alt: 'Product gallery image 16' }
 ];

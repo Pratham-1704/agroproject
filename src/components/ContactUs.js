@@ -121,7 +121,7 @@ const ContactUs = () => {
                 </svg>
                 <div>
                   <h4>Email Us</h4>
-                  <p><a href="mailto:sandhyaagro@gmail.com">sandhyaagro@gmail.com</a></p>
+                  <p><a href="mailto:info@sandhyaagro.com">info@sandhyaagro.com</a></p>
                 </div>
               </div>
               <div className="contact-info-header">

@@ -84,7 +84,7 @@ const ContactUs = () => {
                   <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 <div>
-                  <h4>Sandhya Agro Pvt Ltd</h4>
+                  <h4>Sandhya Agro Exports</h4>
                   <p>At lakhapur, Post, Daryapur, Thilori, Amravati, Maharashtra 444803</p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const ContactUs = () => {
                 </svg>
                 <div>
                   <h4>Email Us</h4>
-                  <p><a href="mailto:info@sandhyaagro.com">info@sandhyaagro.com</a></p>
+                  <p><a href="mailto:connect@sandhyaagro.com">connect@sandhyaagro.com</a></p>
                 </div>
               </div>
               <div className="contact-info-header">
@@ -130,7 +130,7 @@ const ContactUs = () => {
                 </svg>
                 <div>
                   <h4>Business Hours</h4>
-                  <p>All 7 Days • 24 Hours Service</p>
+                  <p>6 Days • 10 AM to 6 PM</p>
                 </div>
               </div>
             </div>

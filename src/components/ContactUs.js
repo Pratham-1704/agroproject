@@ -43,8 +43,20 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically send the data to a server
-    console.log('Form submitted:', formData);
+
+    const subject = `Enquiry from ${formData.name || 'a visitor'}`;
+    const products = formData.products.length > 0 ? formData.products.join(', ') : 'None selected';
+    const body = `Name: ${formData.name}
+Organization: ${formData.organization}
+Phone: ${formData.phone}
+Email: ${formData.email}
+Products: ${products}
+
+Description:
+${formData.description}`;
+    const mailtoLink = `mailto:connect@sandhyaagro.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
     setShowSuccess(true);
     setFormData({
       name: '',
